@@ -1,0 +1,116 @@
+* My proposal
+You can find my proposal in this repository in its original org-mode
+format, in LaTeX, and in PDF.
+
+* Patch series
+** Microproject: add golang userdiff (ag/userdiff-go-funcname)
+This patch series on GitHub:
+
+ * v1: https://github.com/agrn/git/commit/userdiff-go-funcname-v1
+ * v2: https://github.com/agrn/git/commit/4de858195eaae8aa855a66fc307b8487fd0db8b2
+
+Discussions related to this patch series:
+
+ * v1: https://public-inbox.org/git/20180228172906.30582-1-alban.gruin@gmail.com
+ * v2: https://public-inbox.org/git/20180301111907.17607-1-alban.gruin@gmail.com/
+
+Released in Git 2.17.
+
+** Move rebase -p (ag/rebase-p)
+This patch series on GitHub:
+
+ * v1: https://github.com/agrn/git/commit/c88f5b85a32478f141cf739a0433cd54fb77e081
+ * v2: https://github.com/agrn/git/commit/be8acc2eb07af68c9156fe6d67d6a76f27675e20
+ * v3: https://github.com/agrn/git/commit/0e4f67e16cd4d775f0374a4703110f91c6f16001
+ * v4: https://github.com/agrn/git/commit/b775f6bb4f7d531afe817d58da76df805769999f
+
+Discussions related to this patch series:
+
+ * v1: https://public-inbox.org/git/20180522133110.32723-1-alban.gruin@gmail.com
+ * v2: https://public-inbox.org/git/20180522211625.23893-1-alban.gruin@gmail.com
+ * v3: https://public-inbox.org/git/20180524114958.26521-1-alban.gruin@gmail.com
+ * v4: https://public-inbox.org/git/20180528123422.6718-1-alban.gruin@gmail.com
+
+Merged into 'master' on 2018-06-25 at f3fec40e8d.
+
+** Rewrite append_todo_help() in C
+This patch series on GitHub:
+
+ * v1: https://github.com/agrn/git/commit/0ec1d6436c1f7d99f03ced6618c84c0d554f1cc5
+ * v2: https://github.com/agrn/git/commit/append-todo-help-c-v2
+ * v3: https://github.com/agrn/git/commit/append-todo-help-c-v3
+ * v4: https://github.com/agrn/git/commit/append-todo-help-c-v4
+ * v5: https://github.com/agrn/git/commit/append-todo-help-c-v5
+
+Discussions related to this patch series:
+
+ * v1: https://public-inbox.org/git/20180531110130.18839-1-alban.gruin@gmail.com
+ * v2: https://public-inbox.org/git/20180605125334.14082-1-alban.gruin@gmail.com
+ * v3: https://public-inbox.org/git/20180607103012.22981-1-alban.gruin@gmail.com
+ * v4: https://public-inbox.org/git/20180626161643.31152-1-alban.gruin@gmail.com
+ * v5: https://public-inbox.org/git/20180628100411.8092-1-alban.gruin@gmail.com
+
+Now part of ag/rebase-i-in-c.
+
+** Rewrite the edit-todo functionnality in C
+This patch series on GitHub:
+
+ * v1: https://github.com/agrn/git/commit/edit-todo-c-v1
+ * v2: https://github.com/agrn/git/commit/edit-todo-c-v2
+ * v3: https://github.com/agrn/git/commit/edit-todo-c-v3
+
+Discussions related to this patch series:
+
+ * v1: https://public-inbox.org/git/20180611135714.29378-1-alban.gruin@gmail.com
+ * v2: https://public-inbox.org/git/20180613152211.12580-1-alban.gruin@gmail.com/
+ * v3: https://public-inbox.org/git/20180626162143.31608-1-alban.gruin@gmail.com
+
+Now part of ag/rebase-i-in-c.
+
+** Rewrite the reflog operations in C
+This patch series on GitHub:
+
+ * v1: https://github.com/agrn/git/commit/rebase-interactive-reflog-v1
+ * v2: https://github.com/agrn/git/commit/rebase-interactive-reflog-v2
+ * v3: https://github.com/agrn/git/commit/rebase-interactive-reflog-v3
+ * v4: https://github.com/agrn/git/commit/rebase-interactive-reflog-v4
+ * v5: https://github.com/agrn/git/commit/rebase-interactive-reflog-v5
+
+Discussions related to this patch series:
+
+ * v1: https://public-inbox.org/git/20180618131844.13408-1-alban.gruin@gmail.com
+ * v2: https://public-inbox.org/git/20180619154421.14999-1-alban.gruin@gmail.com
+ * v3: https://public-inbox.org/git/20180621141732.19952-1-alban.gruin@gmail.com
+ * v4: https://public-inbox.org/git/20180625134419.18435-1-alban.gruin@gmail.com
+ * v5: https://public-inbox.org/git/20180629151435.31868-1-alban.gruin@gmail.com
+
+Now part of ag/rebase-i-in-c.
+
+** Rewrite rebase -i in C (ag/rebase-i-in-c)
+This patch series on GitHub:
+
+ * v2: https://github.com/agrn/git/commit/rebase-i-in-c-v2
+ * v3: https://github.com/agrn/git/commit/rebase-i-in-c-v3
+ * v4: https://github.com/agrn/git/commit/rebase-i-in-c-v4
+ * v5: https://github.com/agrn/git/commit/rebase-i-in-c-v5
+
+Discussions related to this patch series:
+
+ * v2: https://public-inbox.org/git/20180702105717.26386-1-alban.gruin@gmail.com
+ * v3: https://public-inbox.org/git/20180710121557.6698-1-alban.gruin@gmail.com
+ * v4: https://public-inbox.org/git/20180724163221.15201-1-alban.gruin@gmail.com
+ * v5: https://public-inbox.org/git/20180731180003.5421-1-alban.gruin@gmail.com
+
+Merged into 'pu' on 2018-08-03 at d16229f954, soon to be merged to
+'next'.
+
+** Refactor the sequencer
+This patch series on GitHub:
+
+ * WIP: https://github.com/agrn/git/commit/a6a6a5f69be5a35ebb7622c945dc515125b2b7da
+
+Not sent to the list yet.
+
+* Blog posts
+Each week, I wrote a blog post about my progression.  They can be read
+here: https://blog.pa1ch.fr/category/gsoc-2018.html.
