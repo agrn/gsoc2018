@@ -31,7 +31,7 @@ Discussions related to this patch series:
  * v3: https://public-inbox.org/git/20180524114958.26521-1-alban.gruin@gmail.com
  * v4: https://public-inbox.org/git/20180528123422.6718-1-alban.gruin@gmail.com
 
-Merged into 'master' on 2018-06-25 at f3fec40e8d.
+Merged into 'master' on 2018-06-25 at [[https://github.com/git/git/commit/f3fec40e8d8798e5313f05a9273aef932fe4519e][f3fec40e8d]].
 
 ** Rewrite append_todo_help() in C
 This patch series on GitHub:
@@ -101,8 +101,8 @@ Discussions related to this patch series:
  * v4: https://public-inbox.org/git/20180724163221.15201-1-alban.gruin@gmail.com
  * v5: https://public-inbox.org/git/20180731180003.5421-1-alban.gruin@gmail.com
 
-Merged into 'pu' on 2018-08-03 at d16229f954, soon to be merged to
-'next'.
+Merged into 'pu' on 2018-08-03 at d16229f954, [[https://public-inbox.org/git/xmqq4lgcz81f.fsf@gitster-ct.c.googlers.com/][soon to be merged to
+'next']].
 
 ** Refactor the sequencer
 This patch series on GitHub:
