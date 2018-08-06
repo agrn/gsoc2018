@@ -114,3 +114,5 @@ Not sent to the list yet.
 * Blog posts
 Each week, I wrote a blog post about my progression.  They can be read
 here: https://blog.pa1ch.fr/category/gsoc-2018.html.
+
+You can find the source of theses posts in this repository.
