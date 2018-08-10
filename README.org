@@ -93,6 +93,7 @@ This patch series on GitHub:
  * v3: https://github.com/agrn/git/commit/rebase-i-in-c-v3
  * v4: https://github.com/agrn/git/commit/rebase-i-in-c-v4
  * v5: https://github.com/agrn/git/commit/rebase-i-in-c-v5
+ * v6: https://github.com/agrn/git/commit/rebase-i-in-c-v6
 
 Discussions related to this patch series:
 
@@ -100,8 +101,9 @@ Discussions related to this patch series:
  * v3: https://public-inbox.org/git/20180710121557.6698-1-alban.gruin@gmail.com
  * v4: https://public-inbox.org/git/20180724163221.15201-1-alban.gruin@gmail.com
  * v5: https://public-inbox.org/git/20180731180003.5421-1-alban.gruin@gmail.com
+ * v6: https://public-inbox.org/git/20180810165147.4779-1-alban.gruin@gmail.com/
 
-Merged into 'pu' on 2018-08-03 at d16229f954, [[https://public-inbox.org/git/xmqq4lgcz81f.fsf@gitster-ct.c.googlers.com/][soon to be merged to
+v5 merged into 'pu' on 2018-08-03 at d16229f954, [[https://public-inbox.org/git/xmqq4lgcz81f.fsf@gitster-ct.c.googlers.com/][soon to be merged to
 'next']].
 
 ** Refactor the sequencer
