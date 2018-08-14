@@ -106,6 +106,10 @@ Discussions related to this patch series:
 v5 merged into 'pu' on 2018-08-03 at d16229f954, [[https://public-inbox.org/git/xmqq4lgcz81f.fsf@gitster-ct.c.googlers.com/][soon to be merged to
 'next']].
 
+This patch rewrites completely rebase -i.  Everything works, and is a
+bit faster (~50% on my machine).  There is some design details to
+change, and there is a lot of work remaining in the sequencer, though.
+
 ** Refactor the sequencer
 This patch series on GitHub:
 
